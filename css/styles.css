@@ -14,19 +14,22 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #FF369B;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: whitesmoke;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #FF9CCE;
 }
 
 /* Styles for lists in the document */
 
+.border-2 {
+	border: 3px solid #FF369B !important;
+}
 .biography-details li::before, .skill-list li::before {
 	content: ">";
 	font-weight: 800;
@@ -36,16 +39,87 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #FF369B;
 }
 
 .biography-details li, .skill-list li {
 	padding-left: 1em;
 }
 
+.biography-section {
+	color: #FF369B !important;
+}
 /* Styles for contact icons */
 
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.language-progress {
+	background-color: #FF369B !important;
+}
+
+.name-title {
+	font-family: 'Shantell Sans', cursive !important;
+	font-size: 70px;
+}
+
+.title-rest{
+	font-family: 'Shantell Sans', cursive !important;
+}
+.title-color {
+	color:white;
+	text-shadow: 3px 3px #FF9CCE;
+}
+a:link {
+	color: #FF369B;
+}
+
+a:visited {
+	color: lightcoral;
+}
+
+a:hover {
+	color: black;
+	text-shadow: 2px 2px 2px #FF369B;
+}
+
+.subcolor {
+	color: white; !important;
+}
+
+.language-box {
+	border-radius: 15px !important;
+	color: black !important;
+}
+
+.inside-box {
+	border-radius: 15px 15px 15px 15px !important;
+}
+
+.myinfo {
+	font-size: 40px;
+}
+
+.round-photo {
+	border-radius: 50% !important;
+}
+
+.photo-size {
+	width: 300px !important;
+	height: 300px !important;
+
+}
+
+.name-place {
+	margin-left: 60px;
+}
+
+.info-place{
+	margin-left: 85px;
+}
+
+.extra-title{
+	font: italic;
 }
